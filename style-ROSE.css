@@ -1,0 +1,38 @@
+html {
+	background:url('ROSE1.png') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	font-size: 40pt;
+	font-family: 'Amatic SC', cursive;
+	color: #2F4F4F;
+	margin-left: 100pt;
+	margin-right: 100pt;
+	margin-top: 70pt;
+	letter-spacing: 5pt;
+	line-height: 60pt;
+}
+#triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 50px solid transparent;
+	border-right: 100px solid red;
+	border-bottom: 50px solid transparent;
+}
+#triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 12px solid transparent;
+	border-left: 24px solid #2F4F4F;
+	border-bottom: 12px solid transparent;
+}
+img {
+	height: 20px;
+	width: 20px;
+}
+#previous {
+	margin-right: 50px;
+}
